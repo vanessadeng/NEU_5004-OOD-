@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Recipient.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">hw01</a> &gt; <a href="index.source.html" class="el_package">problem2</a> &gt; <span class="el_source">Recipient.java</span></div><h1>Recipient.java</h1><pre class="source lang-java linenums">package problem2;
+
+import java.util.Objects;
+
+/**
+ * Represents a Recipient with their details--firstname, lastname, and emailAddress
+ */
+public class Recipient {
+
+    protected String firstname;
+    protected String lastname;
+    protected String emailAddress;
+
+
+    /**
+     * @param firstname   the first name of the recipient
+     * @param lastname   the last name of the recipient
+     * @param emailAddress the email address of the recipient
+     */
+<span class="fc" id="L20">    public Recipient(String firstname, String lastname, String emailAddress) {</span>
+<span class="fc" id="L21">        this.firstname = firstname;</span>
+<span class="fc" id="L22">        this.lastname = lastname;</span>
+<span class="fc" id="L23">        this.emailAddress = emailAddress;</span>
+<span class="fc" id="L24">    }</span>
+
+
+    /**
+     * @return the first name of the recipient
+     */
+    public String getFirstname() {
+<span class="nc" id="L31">        return firstname;</span>
+    }
+
+
+    /**
+     * @param firstname the first name of the recipient
+     */
+    public void setFirstname(String firstname) {
+<span class="nc" id="L39">        this.firstname = firstname;</span>
+<span class="nc" id="L40">    }</span>
+
+
+    /**
+     * @return the last name of the recipient
+     */
+    public String getLastname() {
+<span class="nc" id="L47">        return lastname;</span>
+    }
+
+
+    /**
+     * @param lastname  the last name of the recipient
+     */
+    public void setLastname(String lastname) {
+<span class="nc" id="L55">        this.lastname = lastname;</span>
+<span class="nc" id="L56">    }</span>
+
+
+    /**
+     * @return the email address of the recipient
+     */
+    public String getEmailAddress() {
+<span class="nc" id="L63">        return emailAddress;</span>
+    }
+
+
+    /**
+     * @param emailAddress the email address of the recipient
+     */
+    public void setEmailAddress(String emailAddress) {
+<span class="nc" id="L71">        this.emailAddress = emailAddress;</span>
+<span class="nc" id="L72">    }</span>
+
+    /**
+     * @param o the object to be compared
+     * @return true if the two objects are the same; false otherwise
+     */
+    @Override
+    public boolean equals(Object o) {
+<span class="pc bpc" id="L80" title="1 of 2 branches missed.">        if (this == o) {</span>
+<span class="fc" id="L81">            return true;</span>
+        }
+<span class="nc bnc" id="L83" title="All 4 branches missed.">        if (o == null || getClass() != o.getClass()) {</span>
+<span class="nc" id="L84">            return false;</span>
+        }
+<span class="nc" id="L86">        Recipient recipient = (Recipient) o;</span>
+<span class="nc bnc" id="L87" title="All 4 branches missed.">        return Objects.equals(firstname, recipient.firstname) &amp;&amp; Objects.equals(</span>
+<span class="nc bnc" id="L88" title="All 2 branches missed.">                lastname, recipient.lastname) &amp;&amp; Objects.equals(emailAddress,</span>
+                recipient.emailAddress);
+    }
+
+    @Override
+    public int hashCode() {
+<span class="nc" id="L94">        return Objects.hash(firstname, lastname, emailAddress);</span>
+    }
+
+    @Override
+    public String toString() {
+<span class="nc" id="L99">        return &quot;Recipient{&quot; +</span>
+                &quot;firstname='&quot; + firstname + '\'' +
+                &quot;, lastname='&quot; + lastname + '\'' +
+                &quot;, emailAddress='&quot; + emailAddress + '\'' +
+                '}';
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

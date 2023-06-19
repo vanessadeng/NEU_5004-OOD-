@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"problem1","l":"DoubleRoom"},{"p":"problem1","l":"FamilyRoom"},{"p":"problem1","l":"HotelBookingSystem"},{"p":"problem1","l":"invalidOccupancyException"},{"p":"problem1","l":"invalidPriceException"},{"p":"problem1","l":"Room"},{"p":"problem1","l":"SingleRoom"}];updateSearchResults();

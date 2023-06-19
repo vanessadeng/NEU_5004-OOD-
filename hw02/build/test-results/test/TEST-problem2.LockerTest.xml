@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="problem2.LockerTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2023-06-03T03:04:45" hostname="LAPTOP-E8MGUIHR" time="0.201">
+  <properties/>
+  <testcase name="testEquals_DifferentDepth()" classname="problem2.LockerTest" time="0.077"/>
+  <testcase name="setMaxDepth()" classname="problem2.LockerTest" time="0.004"/>
+  <testcase name="setMaxWidth()" classname="problem2.LockerTest" time="0.004"/>
+  <testcase name="getMaxDepth()" classname="problem2.LockerTest" time="0.002"/>
+  <testcase name="getMaxWidth()" classname="problem2.LockerTest" time="0.003"/>
+  <testcase name="setItemInLocker()" classname="problem2.LockerTest" time="0.002"/>
+  <testcase name="testEquals_NullObject()" classname="problem2.LockerTest" time="0.003"/>
+  <testcase name="addMail()" classname="problem2.LockerTest" time="0.006"/>
+  <testcase name="testEquals_SameMemoryLocation()" classname="problem2.LockerTest" time="0.002"/>
+  <testcase name="testToString()" classname="problem2.LockerTest" time="0.026"/>
+  <testcase name="pickupMail()" classname="problem2.LockerTest" time="0.002"/>
+  <testcase name="getMaxHeight()" classname="problem2.LockerTest" time="0.001"/>
+  <testcase name="testEquals_DifferentInheritedFields()" classname="problem2.LockerTest" time="0.001"/>
+  <testcase name="testEquals_DifferentHeight()" classname="problem2.LockerTest" time="0.002"/>
+  <testcase name="testEquals_DifferentDataTypes()" classname="problem2.LockerTest" time="0.003"/>
+  <testcase name="setMaxHeight()" classname="problem2.LockerTest" time="0.004"/>
+  <testcase name="testHashCode()" classname="problem2.LockerTest" time="0.002"/>
+  <testcase name="testEquals_DifferentWidthMax()" classname="problem2.LockerTest" time="0.002"/>
+  <testcase name="testEquals_SameFieldsOverall()" classname="problem2.LockerTest" time="0.002"/>
+  <testcase name="getItemInLocker()" classname="problem2.LockerTest" time="0.004"/>
+  <testcase name="testEquals_DifferentRecipient()" classname="problem2.LockerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
